@@ -36,13 +36,13 @@ let g:auto_save_events = ["InsertLeave", "TextChanged"]: Sets events that trigge
 Clone the repository to your local machine by running the following command in your terminal:
 
 ``` 
-git clone https://github.com/your-username/vim-config.git
+https://github.com/Iam-Arjun23/Vim-Config.git
 
 ```
 Navigate to the cloned repository by running:
 
 ```
-cd vim-config
+cd Vim-Config
 ```
 
 Copy the vimrc file to your home directory by running:
