@@ -122,3 +122,4 @@ nnoremap <C-S-P> :bprev<CR>
 
 "Code Run
 autocmd BufEnter *.java let @r=":terminal java %\<CR>"
+let g:auto_save = 1
