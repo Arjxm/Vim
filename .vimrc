@@ -21,6 +21,7 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'RRethy/vim-illuminate'
 Plug 'ternjs/tern_for_vim'
 Plug 'rust-lang/rust.vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 let g:ackprg = 'ag --nogroup --nocolor --column'
 let g:coc_node_path = '/opt/homebrew/bin/node'
@@ -293,6 +294,15 @@ nnoremap <C-S-F> :grep <C-R>=expand('<cword>')<CR> ./*<CR>
 
 syntax enable
 set background=dark
+
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_generate_tags = 1
 
 
 
