@@ -10,6 +10,9 @@ if exists("syntax_on")
 endif
 let g:colors_name="codedark"
 
+
+
+
 " Highlighting function (inspiration from https://github.com/chriskempson/base16-vim)
 if &t_Co >= 256
     let g:codedark_term256=1
