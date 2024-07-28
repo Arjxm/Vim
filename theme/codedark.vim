@@ -2,8 +2,6 @@
 " https://github.com/tomasiser/vim-code-dark
 
 scriptencoding utf-8
-
-set background=dark
 hi clear
 if exists("syntax_on")
     syntax reset
