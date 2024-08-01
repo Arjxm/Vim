@@ -1,7 +1,6 @@
 " Vim Code Dark (color scheme)
-" https://github.com/tomasiser/vim-code-dark
 
-scriptencoding utf-8
+
 hi clear
 if exists("syntax_on")
     syntax reset
